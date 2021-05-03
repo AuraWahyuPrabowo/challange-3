@@ -1,0 +1,346 @@
+
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .2);
+    justify-items: flex-start;
+}
+.navbar-nav{
+    text-transform: lowercase;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+   
+}
+.navbar-nav .nav-link:hover{
+    color: green;
+}
+.navbar-brand{
+    position: relative;
+    left: 20px;
+    padding-right: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.navbar-brand:hover{
+    color: whitesmoke;
+}
+  #section1 {
+    width: 100%;
+    height: auto;
+    background: url("gambar/main-bg.jpg") top left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+  }
+
+  #login1{
+    margin-left: 600px;
+  }
+
+p:nth-child(1){
+    margin-top: 154px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+p:nth-child(2){
+    align-items: center;
+    flex-direction: column;
+    font-size: small;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#paragraf3 #gambarScrol{
+    align-items: center;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bolder;
+}
+.btn1{
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    margin-top: 80px;
+    align-items: center;
+    margin-bottom: 245.5px;
+    border-radius: 7px;
+    width: 260.36px;
+}
+
+.btn1:hover{
+    border-color: #b47f1d;
+}
+
+
+
+#section2{
+    width: 100%;
+    height: auto;
+    background: url("gambar/the-games-bg.jpg") top left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;  
+    display: flex;
+    flex-direction: row;     
+}
+
+.equipment{
+    text-align: start;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#whats_game{
+    margin-top: 50px;
+    font-size: x-large;
+    text-align: end;
+}
+#whats_game2{
+    font-size: xx-large;
+    margin-top: -10px;
+}
+#ic21{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.d-block{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: auto;
+}
+
+#section3{
+    width: 100%;
+    height: 870.26px;
+    background: url("gambar/features.jpg") top left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;  
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.oke{
+    margin-top: 250px;
+    text-transform: uppercase;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+h1 .fiturbesar{
+    font-size: 100rem;
+}
+.caption{
+    text-align: left;
+}
+.caption1{
+    color: #FFB548;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+.barprogres{
+    height: 100%;
+}
+
+
+/* #features{
+    display: flex;
+    
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.tab{
+    position: absolute;
+    left: 10%;
+    top: 320px;
+    
+}
+
+.tablinks{
+    background-color: tomato;
+    border: white;
+    border-radius: 5px;
+    
+}
+
+.tabcontent{
+    position: absolute;
+    top: 360px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} */
+
+#section4{
+    width: 100%;
+    height: 90vh;
+    background: url("gambar/requirements.png") top left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;  
+    display: flex;
+    flex-direction: row;   
+}
+
+#container{
+    text-align: center;
+    color: white; 
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+#tabel{
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 50%;
+    padding: 90px; 
+    border-color: #979797;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .tabel{
+      display: flex;
+      justify-content: center;
+  }
+  .heading{
+      color:#FFB548;
+      font-size: 20px;
+      margin-bottom: -20px;
+      padding-left: 10px;
+  }
+  .bdy{
+      padding-left: 10px;
+  }
+
+#section5{
+    width: 100%;
+    height: 90vh;
+    background: url("gambar/the-games-bg.jpg") top left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;  
+    display: flex;
+    flex-direction: row;
+}
+
+  .topscore{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+#small{
+    text-align: center;
+   
+    color: white;
+}
+#seemore{
+    width: 260.36px;
+    height: 60px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    color: black;
+}
+
+#seemore:hover{
+    color: white;
+    background-color: black;
+}
+.ss{
+    background-color: gray;
+}
+.ss img{
+    margin-left: -20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title{
+    margin-top: -80px;
+    color: rgba(255, 181, 72, 1);
+    
+}
+
+#section6{
+    width: 100%;
+    height: auto;
+    /* background: url("gambar/requirements.png") top left; */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;  
+    display: flex;
+    flex-direction: row;
+}
+
+#imagex{
+    border-color: black;
+    border: rgba(255, 181, 72, 1);
+    margin-top: 50px;
+}
+
+.isinya {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    text-align: left;
+}
+
+.input-group input{
+    background-color: rgba(255, 255, 255, 0.08);
+    Fill: Solid
+rgba(255, 255, 255, 0.08);
+    color:rgba(255, 181, 72, 1);
+    padding: 10px 10px 10px 10px;
+}
+
+.btn-orane{
+    background-color: rgba(255, 181, 72, 1);
+    width: 260px;
+}
